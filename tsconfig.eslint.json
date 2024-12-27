@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "exclude": [
+    "**/coverage/**",
+    "**/dist/**",
+    "**/doc/**",
+    "**/node_modules/**",
+    "**/src/**/tests/*.e2e-spec.ts",
+    "./test/base_e2e_spec.ts"
+  ],
+  "extends": [
+    "./tsconfig.json"
+  ],
+  "include": [
+    "**/*.js",
+    "**/*.json",
+    "**/*.ts"
+  ]
+}
